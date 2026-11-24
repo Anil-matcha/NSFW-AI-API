@@ -28,6 +28,10 @@ Relaxed-moderation ("spicy") models are the main reason to put a moderation step
 | [uncensored-ai-image-generator-comfyui](https://github.com/Anil-matcha/uncensored-ai-image-generator-comfyui) | Low-filter image models in ComfyUI |
 | [awesome-uncensored-ai-video-models](https://github.com/Anil-matcha/awesome-uncensored-ai-video-models) | Catalog of uncensored video models |
 | [awesome-uncensored-ai-image-models](https://github.com/Anil-matcha/awesome-uncensored-ai-image-models) | Catalog of low-filter image models |
+| [awesome-uncensored-llms](https://github.com/Anil-matcha/awesome-uncensored-llms) | Catalog of abliterated and low-refusal language models |
+| [awesome-abliterated-llms](https://github.com/Anil-matcha/awesome-abliterated-llms) | Deployed abliterated LLM endpoints with API examples |
+| [awesome-uncensored-coding-models](https://github.com/Anil-matcha/awesome-uncensored-coding-models) | Coding-model setup guides and refusal-behavior comparisons |
+| [awesome-uncensored-ai-agents](https://github.com/Anil-matcha/awesome-uncensored-ai-agents) | Connecting low-filter models to general-purpose agents |
 
 Moderation does not make a model "safe" by itself; it is a policy check on what goes in and what comes out. Keep your own review process for anything your platform cannot allow.
 
