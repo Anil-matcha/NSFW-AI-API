@@ -9,6 +9,27 @@ Check text, an image, or both for NSFW content and get a `pass` or `block` verdi
 - [Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI)
 - [awesome-ai-image-models](https://github.com/Anil-matcha/awesome-ai-image-models)
 - [muapi-cli](https://github.com/SamurAIGPT/muapi-cli)
+- [Spicy-AI-Video-Generator-API](https://github.com/Anil-matcha/Spicy-AI-Video-Generator-API)
+- [Spicy-AI-Image-Generator-API](https://github.com/Anil-matcha/Spicy-AI-Image-Generator-API)
+- [awesome-uncensored-ai-models](https://github.com/Anil-matcha/awesome-uncensored-ai-models)
+
+## Using it with spicy and uncensored models
+
+Relaxed-moderation ("spicy") models are the main reason to put a moderation step in front of generation: you decide the policy, then enforce it with a `scene`. Use `adult` when your platform allows adult content (it still blocks sexual content involving minors), and `social` or `strict` for everything else. The same `suggestion` check works in front of any of these endpoints:
+
+| Repository | What it covers |
+|---|---|
+| [Seedance-2.5-Spicy-API](https://github.com/Anil-matcha/Seedance-2.5-Spicy-API) | Seedance 2.5 relaxed-moderation video API |
+| [Seedance-2-Spicy-API](https://github.com/Anil-matcha/Seedance-2-Spicy-API) | Seedance 2 text, image and reference-to-video |
+| [Wan-3.0-Spicy-API](https://github.com/Anil-matcha/Wan-3.0-Spicy-API) | Wan 3.0 relaxed-moderation video API |
+| [MiniMax-H3-Spicy-API](https://github.com/Anil-matcha/MiniMax-H3-Spicy-API) | MiniMax H3, H3 Max and H3 Max Turbo spicy endpoints |
+| [Uncensored-AI-API](https://github.com/Anil-matcha/Uncensored-AI-API) | Abliterated LLM endpoints (check generated text with `text`) |
+| [uncensored-ai-video-generator-comfyui](https://github.com/Anil-matcha/uncensored-ai-video-generator-comfyui) | Spicy video models in ComfyUI |
+| [uncensored-ai-image-generator-comfyui](https://github.com/Anil-matcha/uncensored-ai-image-generator-comfyui) | Low-filter image models in ComfyUI |
+| [awesome-uncensored-ai-video-models](https://github.com/Anil-matcha/awesome-uncensored-ai-video-models) | Catalog of uncensored video models |
+| [awesome-uncensored-ai-image-models](https://github.com/Anil-matcha/awesome-uncensored-ai-image-models) | Catalog of low-filter image models |
+
+Moderation does not make a model "safe" by itself; it is a policy check on what goes in and what comes out. Keep your own review process for anything your platform cannot allow.
 
 ## What it does
 
