@@ -17,7 +17,7 @@ Check text, an image, or both for NSFW content and get a `pass` or `block` verdi
 | Endpoint | `POST https://api.muapi.ai/api/v1/nsfw-moderation` |
 | Input | `text`, `image_url`, or both (at least one) |
 | Output | `suggestion` (`pass` / `block`), `nsfw_level`, `minor_risk`, per-text and per-image details |
-| Price | $0.0011 per request on Muapi, the same for text, image, both, and every scene |
+| Price | $0.005 per request on Muapi, the same for text, image, both, and every scene |
 | Contract | Asynchronous: submit, then poll or use a webhook |
 
 ### Request fields
