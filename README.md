@@ -1,4 +1,4 @@
-# NSFW Moderation API
+# NSFW AI API
 
 Check text, an image, or both for NSFW content and get a `pass` or `block` verdict at the `adult`, `social` or `strict` level. One endpoint, a flat per-request price, and runnable `curl`, Python and JavaScript examples, including a script that gates an image-generation call behind a moderation check.
 
